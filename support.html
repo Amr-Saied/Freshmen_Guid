@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e78d117438.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+  <!--- arrow-------------------------------------------->
+    <button id="scrolltop" onclick="scrollToTop()">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+<!---- menu------------------------------------------------------->
+    <header class="menu" id="menu">
+        <div class="ring"></div>
+        <div class="image">
+          <img class="logo2" src="logo2.png" alt="">
+            <h2 class="name1">Support</h2>
+        </div>
+        <nav class="menu1" id="menu1">
+            <input type="button" id="H" class="menuBtn" value="Home" onclick="transHome()">
+            <input type="button" id="Acm" class="menuBtn" value="ACM" onclick="transACM()">
+            <input type="button" id="Sup" class="menuBtn" value="Robotech" onclick="transRobotech()">
+            <input type="button" id="Msp" class="menuBtn" value="MSP" onclick="transMSP()">
+            <input type="button" id="App" class="menuBtn" value="ApplAi" onclick="transApplAi()">
+            <input type="button" id="Osc" class="menuBtn" value="OSC" onclick="transOSC()">
+            <a href="loginPage.html">
+                <input type="button" id="logout" class="logoutbtn" onclick="alert('logged out successfully')">
+            </a>
+        </nav>
+
+    </header>
+
+    <!--sections------------------------------------------------------>
+
+    <section class="main1">
+
+        <div class="descrption">
+            <img class="acmBack" src="logo-removebg-preview.png" width="700" height="600" />
+            <section class="words">
+
+                <h1 class="ABOUT" style="text-decoration:underline;"> ABOUT: </h1>
+
+                <br />
+                <h2 class="h2Descrption">Support</h2>
+                <p class="pDescrption"> <textarea id="1"
+                        readonly="hi" onchange="check1()">We are a group of students aim to drive our country on the way to development & put it on the map of IT </textarea>
+                </p>
+                <input type="button" id="btn" value="Their Events" onclick="scrollEvent()" />
+            </section>
+
+
+        </div>
+        <div class="treasureHunt reveal" id="e">
+            <img class="treasurePhoto" src="cyber.jpg" width="980" height="530" />
+            <h1 class="EVENT1" style="text-decoration:underline;">サイバーセキュリティ|Cyber security </h1>
+
+            <p class="treasureP"> <textarea id="5"
+                    readonly="hi" onchange="check2()">With the development of technology, the importance of this card increases to maintain its safe use..
+The card, in turn, makes systems that protect the operating process, programs, applications and databases from risks.
+</textarea>
+            </p>
+        </div>
+        <div class="buildProject reveal">
+            <img class="buildimage" src="game.jpg" width="800" height="530" />
+            <section class="words2">
+                <h1 class="EVENT2" style="text-decoration:underline;"> ゲーム|Game </h1>
+
+                <p class="buildP">
+                    <textarea id="2"
+                        readonly="hi" onchange="check3()">This card is not just a game! It enables you to create a simulation of a different virtual world every time you use it ✨</textarea>
+                </p>
+            </section>
+        </div>
+        <div class="hashCode reveal">
+
+            <img class="hashimage" src="web.jpg" width="800" height="530" />
+
+            <section class="words3">
+                <h1 class="EVENT3" style="text-decoration:underline;"> ウェブ | Web </h1>
+
+                <p class="hashP">
+                    <textarea id="3"
+                        readonly="hi" onchange="check4()">Spider card 🕸️
+The name comes from that the card manufactures the websites that make up the Internet in the first place..
+The presence of this card except for communication, work and search became easier ✨
+</textarea>
+                </p>
+            </section>
+
+
+
+
+        </div>
+        <div class="whatsCs reveal">
+
+            <img class="Csphoto" src="media.jpg" width="666" height="375" />
+            <section class="words4">
+                <h1 class="EVENT4" style="text-decoration:underline;"> メディア | Media </h1>
+
+                <p class="whatsCsp">
+                <section class="csparagraph"> <textarea id="4"
+                        readonly="hi" onchange="check5()">The creativity card responsible for transforming all ideas into visual media ✨
+And who distinguishes this card is the importance of supporting the rest of the cards 🔥
+</textarea>
+                </section>
+                </p>
+            </section>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="comment">
+            <div class="container">
+                <input type="text" placeholder="Enter your name" id="name">
+                <input type="text" aria-rowcount="5" placeholder=" Enter comment" id="comment">
+                <button onclick="add()">Submit</button>
+                <button onclick="location.reload()">Clear</button>
+                </div>
+                <ul class="list"></ul>
+        </div>
+
+
+
+
+    </section>
+    <div class="footer">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/SUPPORT.FCIS/about/?ref=page_internal">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa-brands fa-facebook-f"></span>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/channel/UCPHy8e09tm1kzuiPKXUfX7w">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa fa-youtube-play"></span>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://twitter.com/SupportASU">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa-brands fa-twitter"></span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+
+    <script src="support.js"></script>
+
+</body>
+
+</html>
