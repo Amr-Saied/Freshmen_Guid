@@ -1,0 +1,173 @@
+body {
+    width: 99.5%;
+    height: 98%;
+    background-image: linear-gradient(rgb(0, 120, 179, 0.1), rgb(0, 0, 0, 0.6)), url(t1.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.form-box {
+    width: 380px;
+    height: 560px;
+    background-color: rgba(236, 236, 236, 0.103);
+    position: relative;
+    border: none;
+    box-shadow: 2px 10px 14px black;
+    margin: 6% auto;
+    padding: 5px;
+    border-radius: 12px;
+    color: white ;
+    overflow: hidden;
+}
+
+
+#loginbox {
+    color: white;
+    border-radius: 15px;
+    width: 130px;
+    margin: 35px auto;
+    box-shadow: 2px 10px 14px #40de4d;
+    position: relative;
+    top: 345px;
+    transition: .6s;
+}
+
+.login,
+.registerbut1 {
+    width: 130px;
+    border: none;
+    border-radius: 15px;
+    height: 30px;
+    background-image: linear-gradient(to right, #3cf30b, #70f547);
+    cursor: pointer;
+    font-family: Verdana;
+    color: white;
+}
+
+.t1,
+.t2,
+.b1,
+.b2,
+.b3 {
+    width: 100%;
+    margin: 5px 0;
+    padding: 7px 0;
+    border: none;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 1px solid #999;
+    outline: none;
+    background: transparent;
+    border-radius: 10px;
+    color: #6ce24b;
+    font-size: 20px;
+
+}
+::placeholder{
+    color: white;
+}
+.t1:focus ,.t2:focus , .b1:focus , .b2:focus, .b3:focus{
+    font-size: 21px;
+    transition: .5s;
+    background-color: white;
+}
+
+
+form {
+    top: 180px;
+    position: absolute;
+    width: 280px;
+}
+
+.check1 {
+    margin-top: 35px;
+}
+
+.check1,
+.t1,
+.t2,
+.b1,
+.b2,
+.b3,
+.check3 {
+    margin-left: 35px;
+    margin-top: 15px;
+}
+
+#registerform {
+    transition: .6s;
+}
+
+.i {
+
+    border: none;
+    background-color: transparent;
+    position: relative;
+    bottom: 225px;
+    left: 114px;
+
+}
+
+#loginform,
+#loginbox {
+    left: 450px;
+    transition: .6s;
+}
+
+#registerbox {
+    color: white;
+    border-radius: 15px;
+    width: 130px;
+    margin: 35px auto;
+    box-shadow: 2px 10px 14px #40de4d;
+    position: relative;
+    top: 280px;
+    transition: .6s;
+}
+
+
+
+
+.loginbut {
+    color: white;
+    border-radius: 15px;
+    width: 130px;
+    margin: 35px auto;
+    box-shadow: 2px 10px 14px #40de4d;
+    position: relative;
+    top: 90px;
+    transition: .6s;
+}
+
+.loginbut1,
+.loginbut2 {
+    width: 65px;
+    border: none;
+    height: 25px;
+    border-radius: 13px;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+    color: white;
+
+}
+
+
+
+
+#backcolor {
+    top: 0;
+    left: 0;
+    margin-left: 65px;
+    position: absolute;
+    width: 65px;
+    height: 100%;
+    background: linear-gradient(to right, #3cf30b, #70f547);
+    border-radius: 30px;
+    transition: .6s;
+    
+}

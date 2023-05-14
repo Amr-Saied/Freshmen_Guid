@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" type="text/css" href="home.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@800&display=swap" rel="stylesheet">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=CFqv1IwCILUMrJ6rUV1psmWxXxok73tkR2OzKJxIj8lPZP6mviheBbE9O4fXZ0dwYbc0_tXp3162vwvTreq0UWLLbGl2ADLhURj3_jF8CUNyfwVT4ZCzrjxEIYoSDunU0HaLhucNqw-TWvCqGDy0zA" charset="UTF-8"></script><script src="https://kit.fontawesome.com/e78d117438.js" crossorigin="anonymous"></script>
+ </head>
+
+<body>
+
+    
+    <div class="menu">
+        <div id="mySidebar" class="sidebar">
+            <div class="closebtn" onclick="closeNav()">×</div>
+               <div><input type="button" id="H" class="About" value="About Us" onclick="transAbout()"></div>
+               <div><a class="link" href="Account.html"><label id="wel">Dear Client</label></a></div>
+               <div  >Services</div>
+                </div>
+           
+            <div id="main">
+            <button class="openbtn" onclick="openNav()" ><img src="menu.png" height="30px" width="60px"></button> 
+        <div class="menu1">
+            
+            <input type="button" id="H" class="menuBtn" value="Home" onclick="">
+            <input type="button" id="Acm" class="menuBtn" value="ACM" onclick="transACM()">
+            <input type="button" id="Sup" class="menuBtn" value="Support" onclick="transSupport()">
+            <input type="button" id="Rob" class="menuBtn" value="Robotech" onclick="transRobotech()">
+            <input type="button" id="Msp" class="menuBtn" value="MSP" onclick="transMSP()">
+            <input type="button" id="App" class="menuBtn" value="ApplAi" onclick="transApplAi()">
+            <input type="button" id="Osc" class="menuBtn" value="OSC" onclick="transOSC()">
+            <a href="loginPage.html"><input type="button" id="logout" class="logoutbtn"
+                    onclick="alert('logged out successfully')"></a>
+   
+     
+     </div>
+     
+
+            
+        </div>
+
+    </div>
+
+
+
+    <div class="slider-container">
+
+        <div class="menux">
+            <div class="homep"> <textarea id="1" readonly="hi" onchange="save()"> Ain Shams University, as the third Egyptian university, was founded in July 1950 under the name of "Ibrahim Pasha University". It participated with the two earlier universities, "Cairo University" (Fua'd the 1st ) and "Alexandria University" (Farouk the 1st) in fulfilling the message of universities and meeting the increasing demand of youth for higher education. When it was first established, Ain Shams University comprised a number of distinguished faculties and academic institutes, which were later developed into university.</textarea>
+              </div>
+            <p> <ul>
+                <li> 
+                   <a href="https://www.facebook.com/profile.php?id=100064194872772">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   <span class="fa-brands fa-facebook-f"></span>
+               </a>
+                </li>
+
+               <li>
+                   <a href="https://www.asu.edu.eg/">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   <span class="fa fa-university"></span>
+               </a>
+               </li>
+
+               <li>
+                   <a href="https://www.linkedin.com/school/ain-shams-university/">
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   <span></span>
+                   <span class="fa-brands fa-linkedin-in"></span>
+               </a>
+               </li>
+
+           </ul></p> 
+            <label for="slide-dot-1"></label>
+            <label for="slide-dot-2"></label>
+            <label for="slide-dot-3"></label>
+        </div>
+        <input id="slide-dot-1" type="radio" name="slides" checked>
+        <div class="slide slide-1"></div>
+        <input id="slide-dot-2" type="radio" name="slides">
+        <div class="slide slide-2"></div>
+        <input id="slide-dot-3" type="radio" name="slides">
+        <div class="slide slide-3"></div>
+
+    </div>
+
+    <script src="home.js"></script>
+
+</body>
+
+</html>

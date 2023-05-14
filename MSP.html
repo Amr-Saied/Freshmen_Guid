@@ -1,0 +1,180 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM</title>
+    <link rel="stylesheet" href="MSP.css">
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=ywPTtk5EN2t5Hz3o5gZsvhSIDv92UpEsjvFnLwI74QPscIyF4qbws3FyZjMB5cL2DvdWb7SrfNmvHOC5E6_wdlUUGIgx8GIr5CMTpjxY1K0uMtSpjet87xoQG-dsDKyBXDti8uZkp0sOu0EfvFwJOA" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e78d117438.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button id="scrolltop" onclick="scrollToTop()">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <header class="menu" id="menu">
+       
+        <div class="ring"></div>
+        <div class="image"> <h2> <span style="color: #ffffff">M</span>
+            <span style="color:#ffffff">S</span>
+            <span style="color: #ffffff">P</span>
+        </h2></div>
+        <nav class="menu1" id="menu1">
+            
+            <input type="button" id="H" class="menuBtn homebtn" value="Home" onclick="transHome()">
+            <input type="button" id="Msp" class="menuBtn" value="ACM" onclick="transACM()">
+            <input type="button" id="Sup" class="menuBtn" value="Support" onclick="transSupport()">
+            <input type="button" id="Rob" class="menuBtn" value="Robotech" onclick="transRobotech()">
+            <input type="button" id="App" class="menuBtn" value="ApplAi" onclick="transApplAi()">
+            <input type="button" id="Osc" class="menuBtn" value="OSC" onclick="transOSC()">
+            <a href="loginPage.html">
+                <input type="button" id="logout" class="logoutbtn" onclick="alert('logged out successfully'), transLogout()">
+            </a>
+        </nav>
+
+    </header>
+    <section class="main1">
+        <div class="descrption reveal">
+            <img class="acmBack" src="msplogo-removebg-preview_3.png" width="670" height="600" />
+            <section class="words">
+                
+                    <h1 class="ABOUT" style="text-decoration:underline;"> ABOUT: </h1>
+                   
+                    <br />
+                    
+                    <p class="pDescrption"><textarea id="p1" readonly="readonly" onchange="check1()">
+                        Microsoft Student Partner Tech Club at ASU is a non-profit student community program that promotes advanced technology through education, practice and innovation. It also provides students with both the needed technical and non-technical sessions which packs their lives with high level skills and supports their careers with opportunities.
+                    </textarea>
+                         
+                    </p>
+                
+            </section>
+
+
+        </div>
+        <div class="treasureHunt reveal">
+            <img class="treasurePhoto" src="bitbybit1-removebg-preview.png" width="680" height="130" />
+            <img class="treasurePhoto2" src="stand-removebg-preview_1.png" width="427" height="575" />
+            <h1 class="EVENT1" style="text-decoration:underline;"> #1 EVENT: </h1>
+            
+            <p class="treasureP"><textarea id="p2" readonly="readonly" onchange="check2()">Bit by Bit event will honorably invite some of the top computer science experts. To give talks to you to highlight and map out expertise and strengths at the computer science major. They will widen your horizons, and let you take a deeper dive into the real business world</textarea>
+                
+            </p>
+        </div>
+        <div class="buildProject reveal">
+            <img class="buildimage" src="first-removebg-preview.png" width="707" height="353" />
+            <img class="bulb" src="second.png" width="262" height="120" />
+            <section class="words2">
+                <h1 class="EVENT2" style="text-decoration:underline;"> #2 EVENT: </h1>
+
+                <p class="buildP"><textarea id="p3" readonly="readonly" onchange="check3()"> How can I make an application? Ok when I do it can I use it on Android or IOS? Well, can't I use it on both(ios-android)? Many questions come to your mind when you think about starting an application, and these are questions that we will be able to answer for you all at Flutter event</textarea>
+                   
+                </p>
+            </section>
+        </div>
+        <div class="hashCode reveal">
+
+            <img class="hashimage" src="cyber-removebg-preview.png"  />
+     
+           
+            <section class="words3">
+                <h1 class="EVENT3" style="text-decoration:underline;"> #3 EVENT: </h1>
+
+                <p class="hashP"><textarea id="p4" readonly="readonly" onchange="check4()">The first thing that comes to everyone’s mind when they know that you are a computer science student is that you are a good hacker… but you don’t know enough information about this field or how to start in it, so MSP is doing a summer training about security that will give you good knowledge to start with.</textarea>
+                    
+                </p>
+            </section>
+
+
+
+
+        </div>
+        <div class="whatsCs reveal">
+
+            <img class="Csphoto" src="unioncup-removebg-preview.png" width="366" height="175" />
+            <section class="words4">
+                <h1 class="EVENT4" style="text-decoration:underline;"> #4 EVENT: </h1>
+
+                <p class="whatsCsp">
+
+                   
+                   <section class="csparagraph">
+                    <ul class="list1"><h4>•You'll be able to learn more about fields that are important nowadays, such as:</h4>
+                        <li>Web Application.</li>
+                        <li>Web design.</li>
+                        <li>Web Development.</li>
+                        <li>Desktop Application</li>
+
+                    </ul> 
+                    </section>
+                </p>
+
+                
+                
+            </section>
+            
+           
+
+            
+
+
+
+
+
+        </div>
+        <div class="comment">
+            <div class="container">
+                <input type="text" placeholder="Enter your name" id="name">
+                <input type="text" aria-rowcount="5" placeholder=" Enter comment" id="comment"> 
+                <button onclick="add()">Submit</button>
+                <button onclick="location.reload()">Clear</button>
+                </div>
+                <ul class="list"></ul>
+        </div>
+
+    </section>
+   
+    <div class="footer">
+        <ul>
+            <li>
+                <a href="https://www.facebook.com/RoboTech.FCIS/">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa-brands fa-facebook-f"></span>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.youtube.com/channel/UCusZ-8K7VzvEampb6YQZquw">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa fa-youtube-play"></span>
+                </a>
+            </li>
+
+            <li>
+                <a href="https://www.linkedin.com/company/robotech-asu/">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span class="fa-brands fa-linkedin-in"></span>
+                </a>
+            </li>
+
+        </ul>
+    </div>
+    <script src="MSP.js"></script>
+</body>
+
+</html>

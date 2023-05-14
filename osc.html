@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSC</title>
+    <link rel="stylesheet" href="osc.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=y5q2hineFWRwBOVYgWuKFAZxvJh5qEtC-AjFSC75lDMdiHuG4lb1-EcZSasAaEm-ZTlcxi915cy7KYtZz2qm37Sg0XsXfT8IJzMruGWDPN4cfhGxnkuCo6ngXshMgqPxrfNCz-X2ZzKlF353QAIguw" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e78d117438.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button id="scrolltop" onclick="scrollToTop()">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+
+    <header class="menu" id="menu">
+        <div class="ring"></div>
+        <div class="image">
+            <h2>OSC</h2>
+        </div>
+        <nav class="menu1" id="menu1">
+            <input type="button" id="H" class="menuBtn" value="Home" onclick="transHome()">
+            <input type="button" id="Osc" class="menuBtn" value="ACM" onclick="transACM()">
+            <input type="button" id="Sup" class="menuBtn" value="Support" onclick="transSupport()">
+            <input type="button" id="Rob" class="menuBtn" value="Robotech" onclick="transRobotech()">
+            <input type="button" id="Msp" class="menuBtn" value="MSP" onclick="transMSP()">
+            <input type="button" id="App" class="menuBtn" value="ApplAi" onclick="transApplAi()">
+            
+            <a href="loginPage.html">
+                <input type="button" id="logout" class="logoutbtn" onclick="alert('logged out successfully')">
+            </a>
+        </nav>
+
+    </header>
+    <section class="main1">
+       
+        <div class="descrption">
+            <img class="oscBack" src="50061725_1221247734708264_4770791166352293888_n-removebg-preview.png" width="800" height="750" />
+            <section class="words">
+
+                <h1 class="ABOUT" style="text-decoration:underline;"> ABOUT: </h1>
+
+                <br />
+                <h2 class="h2Descrption">OSC</h2>
+                <p class="pDescrption"> <textarea id="1" readonly="hi" onchange="check1()">  We are people who believe in the free software philosohy. Free as in free speech, not as in free beer. 
+                    
+     We believe that knowledge and technologies does not belong to a person or a group of people. We believe that knowledge and technologies must be open and available for everybody to study, contribute, modify and share.</textarea>
+                </p>
+                <input type="button" id="btn" value="Their Events" onclick="scrollEvent()" />
+            </section>
+
+
+        </div>
+        <div class="treasureHunt reveal" id="e">
+            <img class="treasurePhoto" src="227407967_1998148860351477_9088452995882423871_n.jpg" width="750" height="530" />
+            <h1 class="EVENT1" style="text-decoration:underline;"> #1 EVENT: </h1>
+
+            <p class="treasureP"> <textarea  class="e16" id="5" readonly="hi" onchange="check2()">Al-Salakhana event that OSC does every season and this season, we will do it during the vacation, in which all the committees in the community will go down on this day, all of them and it will be that each committee in Tourek did what in the season and she does what and how does she work with the members and its capacity to display the work of each Activity throughout the season And Salkhana is considered the best event in the whole season...
+Salkhana was used for the first time in 2015 and it was a new idea for the college or the community itself.</textarea>
+            </p>
+        </div>
+        <div class="buildProject reveal">
+            <img class="buildimage" src="133208754_1825521747614190_47837524985389411_n.png" width="500" height="530" />
+            <img class="bulb" src="236752646_2002887736544256_5250414007812566521_n.jpg" width="500" height="530" />
+            <section class="words2">
+                <h1 class="EVENT2" style="text-decoration:underline;"> #2 EVENT: </h1>
+
+                <p class="buildP">
+                    <textarea class="e2" id="2" readonly="hi" onchange="check3()">So, this event is prepared especially for students that will start their Structured Programming Project this term to find answers for these questions, be able to manage their first project, and to know how to learn from this new experience. There will also be very beneficial talks from Doctors, Graduates, and previous years’ best projects teams who will talk about their experiences and how they deal with difficult situations.</textarea>
+                </p>
+            </section>
+        </div>
+        <div class="hashCode reveal">
+
+            <img class="hashimage" src="273275330_2142468949252800_3906310888635598980_n.jpg" width="750" height="530" />
+
+            <section class="words3">
+                <h1 class="EVENT3" style="text-decoration:underline;"> #3 EVENT: </h1>
+
+                <p class="hashP">
+                    <textarea id="3" readonly="hi" onchange="check4()">OSC WORKSHOPS ARE HERE!
+“Learn continually. There’s always “one more thing” to learn , Stay Hungry Stay Foolish. "
+                         Steve Jobs
+Learning never stop , as Einstein said : "once you stop Learning , you start dying." this time is for anyone who didn't invest in himself yet ..
+     So if you wanted to learn something new or invest your time in learning a new skill then this is the perfect opportunity for you! </textarea>
+                </p>
+            </section>
+
+
+
+
+        </div>
+        <div class="whatsCs reveal">
+
+            <img class="Csphoto" src="273627392_2140481892784839_8816969388311435752_n.jpg" width="666" height="375" />
+            <section class="words4">
+                <h1 class="EVENT4" style="text-decoration:underline;"> #4 EVENT: </h1>
+
+                <p class="whatsCsp">
+                <section class="csparagraph"> <textarea id="4" readonly="hi" onchange="check5()">" If you’ve chosen the right data structures and organized things well, the algorithms will almost always be self-evident. Data structures, not algorithms, are central to programming. ”
+                                                  -Rob Pike
+   Data structures are the key element of any programming language. it is the difference maker between being a bad programmer or a good one .</textarea></section>
+                </p>
+            </section>
+
+
+
+           
+
+
+        </div>
+
+        <div class="comment">
+            <div class="container">
+                <input type="text" placeholder="Enter your name" id="name">
+                <input type="text" aria-rowcount="5" placeholder=" Enter comment" id="comment"> 
+                <button onclick="add()">Submit</button>
+                <button onclick="location.reload()">Clear</button>
+                </div>
+                <ul class="list"></ul>
+        </div>
+
+    </section>
+    <div class="footer"> <ul>
+        <li> 
+           <a href=https://www.facebook.com/oscgeeks/?ref=page_internal">
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+           <span class="fa-brands fa-facebook-f"></span>
+       </a>
+        </li>
+
+       <li>
+           <a href="https://twitter.com/oscgeeks?fbclid=IwAR1-gFg2eLcVIxlQQ2scxmwmtwx0ugu1D66Ec_LTZudX0wipGwkoQxBxN3E">
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+           <span class="fa-brands fa-twitter"></span>
+       </a>
+       </li>
+
+       <li>
+           <a href="https://www.instagram.com/oscgeeks/?fbclid=IwAR0lQS7he8BpN7Ykv7cHf7ZiW9Q1G3mk1_KPP89wpnozNyiHS3NlDsnZRHI">
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+           <span class="fa-brands fa-instagram"></span>
+       </a>
+       </li>
+
+   </ul></div>
+
+    <script src="osc.js"></script>
+
+</body>
+
+</html>
