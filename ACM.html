@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACM</title>
+    <link rel="stylesheet" href="ACM.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=rqa1CvIGBHe53yji2qFvGGPP4_4QllFHeO6WapTt7bA4FfrOFXK8l7dbQedO0ZXp-XIclriJwqZg3lrcOFbHSGJzuMD0YLAEyTR2j9M8jgESHBZUCRnXpGl16Qr401OCEDqVqh8qUh1aI2RlBRqDcA" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e78d117438.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <button id="scrolltop" onclick="scrollToTop()">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+
+    <header class="menu" id="menu">
+        <div class="ring"></div>
+        <div class="image">
+            <h2> ACM</h2>
+        </div>
+        <nav class="menu1" id="menu1">
+            <input type="button" id="H" class="menuBtn" value="Home" onclick="transHome()">
+
+            <input type="button" id="Sup" class="menuBtn" value="Support" onclick="transSupport()">
+            <input type="button" id="Rob" class="menuBtn" value="Robotech" onclick="transRobotech()">
+            <input type="button" id="Msp" class="menuBtn" value="MSP" onclick="transMSP()">
+            <input type="button" id="App" class="menuBtn" value="ApplAi" onclick="transApplAi()">
+            <input type="button" id="Osc" class="menuBtn" value="OSC" onclick="transOSC()">
+            <a href="loginPage.html">
+                <input type="button" id="logout" class="logoutbtn" onclick="alert('logged out successfully')">
+            </a>
+        </nav>
+
+    </header>
+    <section class="main1">
+       
+        <div class="descrption">
+            <img class="acmBack" src="acmBack3-removebg-preview.png" width="800" height="750" />
+            <section class="words">
+
+                <h1 class="ABOUT" style="text-decoration:underline;"> ABOUT: </h1>
+
+                <br />
+                <h2 class="h2Descrption">acmASCIS</h2>
+                <p class="pDescrption"> <textarea id="1" readonly="hi" onchange="check1()"> is the local neighborhood of ACM.It serve as nodes of activities for ACM members and the computing communityas large, offering seminars, lectures, and the opportunity to meet peers and experts in many fields of interest. </textarea>
+                </p>
+                <input type="button" id="btn" value="Their Events" onclick="scrollEvent()" />
+            </section>
+
+
+        </div>
+        <div class="treasureHunt reveal" id="e">
+            <img class="treasurePhoto" src="treasureHunt-removebg-preview.png" width="1080" height="630" />
+            <h1 class="EVENT1" style="text-decoration:underline;"> #1 EVENT: </h1>
+
+            <p class="treasureP"> <textarea id="5" readonly="hi" onchange="check2()">Captain Jack Sparrow and the other pirates of the Caribbean are going on a journey to find the missing treasure, The journey will be full of things some are dangerous and others interesting. None of the pirates will forget about it.So, are you ready to be one of the crew and join this journey and find the missing treasure? Improve your skills and wait for the steamer to sail with you and all the other pirates.</textarea>
+            </p>
+        </div>
+        <div class="buildProject reveal">
+            <img class="buildimage" src="buildYourproject-removebg-preview.png" width="800" height="530" />
+            <img class="bulb" src="bulb.png" width="1000" height="390" />
+            <section class="words2">
+                <h1 class="EVENT2" style="text-decoration:underline;"> #2 EVENT: </h1>
+
+                <p class="buildP">
+                    <textarea id="2" readonly="hi" onchange="check3()">So, this event is prepared especially for students that will start their Structured Programming Project this term to find answers for these questions, be able to manage their first project, and to know how to learn from this new experience. There will also be very beneficial talks from Doctors, Graduates, and previous years’ best projects teams who will talk about their experiences and how they deal with difficult situations.</textarea>
+                </p>
+            </section>
+        </div>
+        <div class="hashCode reveal">
+
+            <img class="hashimage" src="hash-removebg-preview.png" width="800" height="530" />
+
+            <section class="words3">
+                <h1 class="EVENT3" style="text-decoration:underline;"> #3 EVENT: </h1>
+
+                <p class="hashP">
+                    <textarea id="3" readonly="hi" onchange="check4()">What is Google Hash Code? For those who don't know Google Hash Code, Hash Code is Google’s flagship team programming competition for students and professionals in Europe, the Middle East, and Africa. You pick your team(2 to 4 individuals) and programming language, Google picks an engineering problem for you, and you will be given 4 hours to solve it.</textarea>
+                </p>
+            </section>
+
+
+
+
+        </div>
+        <div class="whatsCs reveal">
+
+            <img class="Csphoto" src="Cs.png" width="666" height="375" />
+            <section class="words4">
+                <h1 class="EVENT4" style="text-decoration:underline;"> #4 EVENT: </h1>
+
+                <p class="whatsCsp">
+
+                <h5>"Computer science is no more<br /> about computers than astronomy is about telescopes.''</h5> <br />
+                <section class="csparagraph"> <textarea id="4" readonly="hi" onchange="check5()">What's CS is an event by ACM that you will never want to miss! This event lets you know everything about computer science and our faculty through significant talks, entertaining activities, personal experiences and a lot of fun. We can't wait to meet you all there.</textarea></section>
+                </p>
+            </section>
+
+
+
+
+
+
+
+        </div>
+
+        <div class="comment">
+            <div class="container">
+                <input type="text" placeholder="Enter your name" id="name">
+                <input type="text" aria-rowcount="5" placeholder=" Enter comment" id="comment"> 
+                <button onclick="add()">Submit</button>
+                <button onclick="location.reload()" >Clear</button>
+                </div>
+                <ul class="list"></ul>
+        </div>
+
+    </section>
+    <div class="footer"> <ul>
+        <li> 
+           <a href="https://www.facebook.com/acmASCIS">
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+           <span class="fa-brands fa-facebook-f"></span>
+       </a>
+        </li>
+
+       <li>
+           <a href="https://www.youtube.com/c/AcmascisOrg">
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+           <span class="fa fa-youtube-play"></span>
+       </a>
+       </li>
+
+       <li>
+           <a href="https://www.linkedin.com/company/acmascis-student-chapter/mycompany/">
+           <span></span>
+           <span></span>
+           <span></span>
+           <span></span>
+           <span class="fa-brands fa-linkedin-in"></span>
+       </a>
+       </li>
+
+   </ul></div>
+
+    <script src="ACM.js"></script>
+
+</body>
+
+</html>

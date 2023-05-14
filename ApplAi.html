@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApplAi</title>
+    <link rel="stylesheet" href="ApplAi.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script type="text/javascript" src="https://me.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=iRLFj_K_txVtkC5_zSehf4GPP7DiQOo13H0hf-081br_oeByegoTTZmMjTATRbQZRQWe9keHX1Ee3cfKgKjwjvtO0JwVk1Ss2dvw6mbvoZxjh1BFCYlf0ghOKiib5h-9wwEZ3-OfUB-NbePlRqz39Q" charset="UTF-8"></script><script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/e78d117438.js" crossorigin="anonymous"></script>
+
+<body>
+
+    <button id="scrolltop" onclick="scrollToTop()">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+
+    <header class="menu" id="menu">
+        <div class="ring"></div>
+        <div class="image">
+            <h2> ApplAi</h2>
+        </div>
+        <nav class="menu1" id="menu1">
+            <input type="button" id="H" class="menuBtn" value="Home" onclick="transHome()">
+            <input type="button" id="ACM" class="menuBtn" value="ACM" onclick="transACM()">
+            <input type="button" id="Sup" class="menuBtn" value="Support" onclick="transSupport()">
+            <input type="button" id="Rob" class="menuBtn" value="Robotech" onclick="transRobotech()">
+            <input type="button" id="Msp" class="menuBtn" value="MSP" onclick="transMSP()">
+            <input type="button" id="Osc" class="menuBtn" value="OSC" onclick="transOSC()">
+            <a href="loginPage.html">
+                <input type="button" id="logout" class="logoutbtn" onclick="alert('logged out successfully')">
+            </a>
+        </nav>
+        </header>
+
+        <section class="main1">
+       
+            <div class="descrption">
+                <img class="acmBack" src="applai-removebg-preview.png" width="800" height="750" />
+                <section class="words">
+    
+                    <h1 class="ABOUT" style="text-decoration:underline;"> ABOUT: </h1>
+    
+                    <br />
+                    <h2 class="h2Descrption">ApplAi:</h2>
+                    <p class="pDescrption"> <textarea id="1" readonly="hi" onchange="check1()">is a pioneer Artificial Intelligence students community in Egypt, based at the Faculty of Computer and Information Science Ain Shams University.</textarea>
+                    </p>
+                    <input type="button" id="btn" value="Their Events" onclick="scrollEvent()" />
+                </section>
+            </div>
+
+            <div class="treasurehunt reveal" id="e">
+                <img class="treasurePhoto" src="machinelearning-removebg-preview.png" width="750" height="590"/> 
+
+                <section class="words1">
+
+                    <h1 class="EVENT1" style="text-decoration:underline;"> #1 EVENT: </h1>
+
+                <p class="treasureP"><textarea readonly="hi" id="5" onchange="check2()"> want to take courses beside the university’ stuff, I want to develop myself, be more productive and many more other thoughts like this we always say to ourselves. Though, too many reasons and even more excuses start to come up once we decide to learn a new technicality or skill. Sometimes you get lost and can’t find the right path, or you find it time-consuming when the assignments and assessments pile up.Here is the chance, for all those who are interested in the AI field and don’t know from where to begin. You have got the opportunity to take 5 sessions that will put you on the ML track in no time with high quality.This workshop’s road map will take you through out the Machine Learning’s exploratory milestones. Starting from gaining the knowledge, till you create your own project to ensure that you have processed the content well.</textarea>
+                </p>
+
+             </section>
+            </div>
+            <div class="buildProject reveal">
+                <img class="buildimage" src="computerscience.png" width="800" height="570" />
+                <section class="words2">
+                    <h1 class="EVENT2" style="text-decoration:underline;"> #2 EVENT: </h1>
+    
+                    <p class="buildP">
+                        <textarea id="2" readonly="hi" onchange="check3()">Good, I finished exams!!-
+                            During school, you knew all the details you would go through, but the stage you are in now may have many things to you that are still unknown. That is why we would like you to take advantage of this opportunity and learn more.
+                            Currently in 3 scenarios you are trapped in.
+                            First: You know what computers and information are, and what is your goal, but you need to talk to people from the college who have more experience and information.
+                            The second: It is one of your choices, but you cannot decide whether this is the right choice or not.
+                            The third: You still do not know what you like and therefore do not know what to choose.
+                            We hear a lot about top colleges, which now have computers and information as one of them.
+                            Don't want to know why it is one of them?
+                            Why is it in great demand in the labor market now?
+                            So what is the difference between computer science and computer engineering? (This is the most common question that comes to our minds all)
+                            You know that now computer science isn't only for math students but for science students too!! 
+                            Because of all these questions, we decided to do this event in order to find answers to all these questions.
+                            Ok, what will I benefit from this event, and what will it be? -
+                            We will be with you through Lives, Posts and Videos to know</textarea>
+                    </p>
+                </section>
+            </div>
+            
+            
+        
+        <div class="hashCode reveal">
+
+            <img class="hashimage" src="recruitment-removebg-preview.png" width="800" height="530" />
+
+            <section class="words3">
+                <h1 class="EVENT3" style="text-decoration:underline;"> #3 EVENT: </h1>
+
+                <p class="hashP">
+                    <textarea id="3" readonly="hi" onchange="check4()">Give yourself a second to think about what you need in your life in this period of time. Let us suggest something that may be different and interesting. We assure you based on experiences that being in a healthy community has a great impact. First of all, meeting new people switches the mood 100%. Moreover, you have the chance to produce successful projects from creative ideas with supportive people surrounding you from everywhere.</textarea>
+                </p>
+            </section>
+
+
+
+
+        </div>
+        <div class="whatsCs reveal">
+
+            <img class="Csphoto" src="meeting-removebg-preview.png" width="666" height="375" />
+            <section class="words4">
+                <h1 class="EVENT4" style="text-decoration:underline;"> #4 EVENT: </h1>
+
+                <p class="whatsCsp">
+
+                <h5>"Computer science is no more<br /> about computers than astronomy is about telescopes.''</h5> <br />
+                <section class="csparagraph"> <textarea id="4" readonly="hi" onchange="check5()">Going to a new phase of your life isn't easy, you need to discover every single factor of your current position. You have got the chance to know more and understand what is going on.</textarea></section>
+                </p>
+            </section>
+        </div>
+
+        <div class="comment">
+            <div class="container">
+                <input type="text" placeholder="Enter your name" id="name">
+                <input type="text" aria-rowcount="5" placeholder=" Enter comment" id="comment"> 
+                <button onclick="add()">Submit</button>
+                <button onclick="location.reload()">Clear</button>
+                </div>
+                <ul class="list"></ul>
+        </div>
+        
+    </section>
+        
+        <div class="footer"> <ul>
+            <li> 
+               <a href="https://www.facebook.com/ApplAiasu">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fa-brands fa-facebook-f"></span>
+           </a>
+            </li>
+    
+           <li>
+               <a href="https://www.youtube.com/channel/UChXlQ6PfPkpq3fJk_j_D46w">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fa fa-youtube-play"></span>
+           </a>
+           </li>
+    
+           <li>
+               <a href="https://www.linkedin.com/company/applaiasu/">
+               <span></span>
+               <span></span>
+               <span></span>
+               <span></span>
+               <span class="fa-brands fa-linkedin-in"></span>
+           </a>
+           </li>
+    
+       </ul></div>
+    
+
+
+
+    
+    <script src="ApplAi.js"></script>
+
+</body>
+
+</html>
